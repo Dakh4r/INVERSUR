@@ -1,0 +1,186 @@
+.contenedor {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    background-color: white;
+}
+section:nth-child(even) {
+	background-color: #ffffff;
+}
+
+.tarjetas {
+    margin: 15px;
+    padding: 3%;
+    transition: transform .2s;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.tarjetas p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    max-width: 300px;
+    /* Cambia esto al tamaño que prefieras */
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.tarjetas img {
+    width: 320px;
+    height: 270px;
+    max-width: 100%
+    
+}
+
+.tarjetasmini {
+    margin: 25px;
+    padding: 1%;
+    transition: transform .2s;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.tarjetasmini img {
+    width: 150px;
+    height: 70px;
+    max-width: 150%
+    
+}
+a img {
+    transition: transform 0.3s ease;
+    text-decoration: none;
+}
+ul a:hover img {
+    transform: scale(1.2);
+    text-decoration: none;
+}
+ul a {
+    margin: 10px;
+    text-decoration: none;
+}
+
+.tarjetas:hover {
+    transform: scale(1.2);
+    text-decoration: none;
+}
+
+.titulo {
+    color: #c4a044;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5%;
+}
+
+.tarjetas a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#demoFont {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    letter-spacing: 0px;
+    word-spacing: 0.6px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 55px;
+}
+#demoFont2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 0px;
+    color: #ffd943;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-align: center;
+    margin-top: 55px;
+}
+#titulo {
+	height: 425px;
+	background: url("../img/header-productos-control-industrial.jpg") center center no-repeat;
+	background-size: cover;
+}
+#titulo h3 {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+    
+}
+#productos .titulito {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 1%;
+    padding-top: 2%;
+    text-shadow: 1px 2px 1px #141414;
+}
+
+hr {
+    width: 48%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    border: 1px solid grey;
+}
+
+.logofinal {
+    margin: 15px;
+    padding: 3%;
+    transition: transform .2s;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+.logofinal img {
+    width: 25%;
+    height: 25%;
+}
+.logoempresas {
+    margin: 15px;
+    padding: 2%;
+    transition: transform .2s;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+.logoempresas img {
+    width: 15%;
+    height: 15%;
+}
+.logofinal:hover {
+    transform: scale(1.2);
+    text-decoration: none;
+}
