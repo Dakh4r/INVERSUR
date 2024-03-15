@@ -1,12 +1,21 @@
 /**********************
 DEFAULT
 ***********************/
+.flechita {
+	height: 80px;
+	text-align: center;
+	background-color: #f4f4f4;
+}
+.flechita img {
+	height: 80px;
+}
+
 
 body {
 	padding-top: 90px;
 	font-family: 'Crimson Text', serif;
-	font-size: 15px;
-	color: #637988;
+	font-size: 19px;
+	color: #212324;
 	line-height: 1.7;
 }
 
@@ -72,11 +81,11 @@ h1,
 }
 
 h2 {
-	font-size: 25px;
+	font-size: 30px;
 }
 
 h2.section-title {
-	color: #231f20;
+	color: #090909;
 }
 
 h2.section-title:after {
@@ -592,7 +601,7 @@ FOOTER SECTION
 ***********************/
 
 #footer {
-	background: #dac401;
+	background: #6c6102ea;
 	color: #ffffff;
 	padding: 55px 0;
 }
